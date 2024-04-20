@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+   
+}
+
+.header .logo img {
+    height: 28px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: rgb(255, 39, 39);
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 54);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    background-color:  rgb(255, 127, 127);
+    color: black;
+    transform: scale(1.1);
+}
+
+.box {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+.filter-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    background-color: rgb(255, 127, 127); 
+    border: none;
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition-duration: 0.4s; 
+    font-size: 18px;
+}
+
+.search-button:hover {
+    background-color: white; 
+    color: #000000; 
+    border: 2px solid rgb(255, 127, 127); 
+}
+
+.look1  {
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.look2  {
+    width: 300px;
+    margin-left: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-right: 370px;
+    font-weight: 1000;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+  .clasificacion2 {
+    direction: rtl;
+    border-radius: 10px;
+    margin-right: 798px;
+    margin-top: -28px;
+    font-weight: 1000;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+.destacados {
+    text-align: center;
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 300px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.producto-img {
+    max-width: 100%; 
+    height: 400px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+.producto h3, .producto p {
+    margin: 10px 0;
+}
+.producto a {
+    display: block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.producto a:hover {
+    background-color:  rgb(255, 127, 127);
+    color: black;
+    transform: scale(1.1);
+}
+
+button-script {
+    background-color: rgb(255, 127, 127); 
+    border: none;
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition-duration: 0.4s; 
+    font-size: 18px;
+}
+
+div.mensaje-contador {
+    font-weight: bold;
+    margin-bottom: 40rem;
+    margin: 0.5rem;
+}
+
+img {
+    width: 220px;
+    height: 400px;
+}

@@ -1,0 +1,29 @@
+{
+    "Productos": [
+
+        {
+            "id": "1",
+            "nombre": "Old money",
+            "imagen": "https://i.pinimg.com/564x/06/07/ce/0607cef6561e303f9cdc17154106d6c1.jpg",
+            "precio": "$25.00",
+            "descripcion": "Ver más"
+
+        },
+
+        {
+            "id": "2",
+            "nombre": "Aesthetic",
+            "imagen": "https://i.pinimg.com/564x/0d/3b/aa/0d3baafd67421d61b11d5f5f31afde39.jpg",
+            "precio": "$35.00",
+            "descripcion": "Ver más"
+        },
+
+        {
+            "id": "3",
+            "nombre": "Coquette",
+            "imagen": "https://i.pinimg.com/564x/db/46/d4/db46d4678548b66ab309ed4585f4cd51.jpg",
+            "precio": "$40.00",
+            "descripcion": "Ver más"
+        }
+    ]
+}

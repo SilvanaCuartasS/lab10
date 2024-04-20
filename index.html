@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Lab10</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Shein-logo.png"  alt="Shein" ></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Descuentos</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn"><button>Contacto</button></a>
+        </div>
+
+        <div class="filter-container">
+            <input type="text" id="searchInput" placeholder="Buscar productos...">
+            <select id="categoryFilter">
+                <option value="all">Todas las categorías</option>
+                <option value="ropa">Old money</option>
+                <option value="calzado">Aesthetic</option>
+                <option value="accesorios">Coquette</option>
+            </select>
+            <button class="search-button">Buscar</button>
+        </div>
+        <div>
+            <img  class="look1" src="https://i.pinimg.com/564x/35/fd/f9/35fdf93e54b5cd3712e1cc7546db76c1.jpg" alt="Look1" >
+            <img class="look2" src="https://i.pinimg.com/564x/fa/63/0a/fa630a7cbf731e74d6214147191b2b0b.jpg" alt="look2">
+        </div>
+    </header>
+
+        <!-- Puede elegir la cantidad de estrellas -->
+
+    <form>
+        <p class="clasificacion">
+            <input id="radio1a" type="radio" name="estrellas1" value="5">
+            <label for="radio1a">★</label>
+            <input id="radio2a" type="radio" name="estrellas1" value="4">
+            <label for="radio2a">★</label>
+            <input id="radio3a" type="radio" name="estrellas1" value="3">
+            <label for="radio3a">★</label>
+            <input id="radio4a" type="radio" name="estrellas1" value="2">
+            <label for="radio4a">★</label>
+            <input id="radio5a" type="radio" name="estrellas1" value="1">
+            <label for="radio5a">★</label>
+        </p>
+    </form>
+    
+    <form>
+        <p class="clasificacion2">
+            <input id="radio1b" type="radio" name="estrellas2" value="5">
+            <label for="radio1b">★</label>
+            <input id="radio2b" type="radio" name="estrellas2" value="4">
+            <label for="radio2b">★</label>
+            <input id="radio3b" type="radio" name="estrellas2" value="3">
+            <label for="radio3b">★</label>
+            <input id="radio4b" type="radio" name="estrellas2" value="2">
+            <label for="radio4b">★</label>
+            <input id="radio5b" type="radio" name="estrellas2" value="1">
+            <label for="radio5b">★</label>
+        </p>
+    </form>
+    <h1 class="destacados">Productos destacados</h1>
+    <div id="info"></div>
+    
+    <!-- <section class="productos">
+        
+        
+        <div class="producto">
+            <img src="https://i.pinimg.com/564x/06/07/ce/0607cef6561e303f9cdc17154106d6c1.jpg" width="250px" alt="Old money">
+            <h3>Old money</h3>
+            <p>$25.00</p>
+            <a href="product_detail1.html">Ver más</a>
+        </div>
+        
+        
+        <div class="producto">
+            <img src="https://i.pinimg.com/564x/0d/3b/aa/0d3baafd67421d61b11d5f5f31afde39.jpg" width="250px" alt="Aesthetic">
+            <h3>Aesthetic</h3>
+            <p>$35.00</p>
+            <a href="product_detail2.html">Ver más</a>
+        </div>
+
+        
+        <div class="producto">
+            <img src="https://i.pinimg.com/564x/db/46/d4/db46d4678548b66ab309ed4585f4cd51.jpg" width="270px" alt="Coquette">
+            <h3>Coquette</h3>
+            <p>$40.00</p>
+            <a href="product_detail3.html">Ver más</a>
+        </div>
+
+    </section> -->
+</body>
+<footer>
+    <script type="module" src="script.js"></script>
+</footer>
+</html>
